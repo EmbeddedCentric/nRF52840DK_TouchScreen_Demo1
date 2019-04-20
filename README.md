@@ -8,7 +8,7 @@ The demo supports the following functionalities:
 2. Get the status of Button 4 on the nRF52840 DK through both the touch screen and over BLE.
 3. Read the nRF52840 on-chip tempreture sensor through both the touch screen and over BLE.
 
-The demo has a custom made Android App to interact with the nRF52840 board over BLE, However, nRF Connect available for both iOS and Android could also be used here.
+The demo has a custom made Android App [nRF5TouchScreenDemo1](https://github.com/EmbeddedCentric/nRF5-TouchScreen-Demo1-Android-App) to interact with the nRF52840 board over BLE, However, nRF Connect available for both iOS and Android could also be used here.
 The demo creates a NUS BLE service. NUS stands for Nordic UART service.
 NUS sets up a BLE datachannel through one "RX" characteristic with "write" properties, and one "TX" characteristic with "notify" properties, to fit the basic communication needs of this demo.
 The LED4 is controlled through the RX characteristic. Writing (0x46 == ON) and (0x4F == OFF).
@@ -47,3 +47,5 @@ GND -> GND( Recommended to be powered externally)
 ![nRF5 BLE Touch Screen Tutorial](images/TouchScreenDemo1_Design.PNG)
 
 ![nRF52840 DK Touch Screen Tutorial](images/TouchScreenDemo1.jpg)
+
+![nRF5 BLE Tutorial](images/nRF5_TouchScreen_Demo1.jpg)
