@@ -1,7 +1,7 @@
 # nRF52840 DK Touch Screen Demo 1 
 
 ### Description
-A simple demo program that utilizes the nRF52840 DK by Nordic Semiconductor, and gen4-uLCD-24PT touch screen by 4D Systems.
+A simple demo program that utilizes the nRF52840 DK by Nordic Semiconductor, and gen4-uLCD-24PT touch screen by 4D Systems. [YouTube Video](https://www.youtube.com/watch?v=fjvI9cyMpDY).
 
 The demo supports the following functionalities: 
 1. Control LED4 on the nRF52840 DK through both the touch screen and over Bluetooth Low Energy (BLE).
